@@ -3,28 +3,26 @@
   margin: auto;
 }
 
-header {
+.flex-banner {
+  display: flex;
+  width: inherit;
   height: auto;
-  margin: auto;
+  justify-content: center;
 }
 
-ul:after {
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
+.flex-inv {
+  display: flex;
 }
 
 #inventory img {
-  width: 27%;
-  height: auto;
-  padding: 2%;
-  margin: 1%;
-  float: left;
+  display: inherit;
+  width: 20%;
+  margin:2%;
+  padding: 1%;
+  align-content: space-around;
 }
 
-#main-nav {
+.flex-nav {
   font-family: Varela Round, arial, sans-serif;
   font-weight: 400;
   font-style: normal;
